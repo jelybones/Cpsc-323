@@ -16,7 +16,7 @@ enum class TokenType {
     Unknown
 };
 
-string keywords[] = {"if", "else", "for", "while", "int", "float", "double", "char", "bool", "return", "#include"};
+string keywords[] = {"if", "else", "for", "while", "int", "float", "double", "char", "bool", "return", "#include", "cout", "endl"};
 char separators[] = {';', ',', '.', '(', ')', '{', '}', '[', ']'};
 string operators[] = {"=", "+", "-", "*", "/", "<", ">"};
 
@@ -166,4 +166,3 @@ int main() {
     inputFile.close();
     return 0;
 }
-
